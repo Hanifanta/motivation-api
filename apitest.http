@@ -1,0 +1,12 @@
+### Quote API
+POST http://localhost:8080/
+Accept: application/json
+Content-Type: application/json
+
+{
+ "quote": "The only way to do great work is to love what you do."
+}
+
+### Get all quotes
+GET http://localhost:8080/
+Accept: application/json
